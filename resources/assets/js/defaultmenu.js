@@ -337,9 +337,9 @@ let headerToggleBtn, WindowPreSize;
   switcherArrowFn();
 
   if (
-    !localStorage.getItem("vyzorlayout") &&
-    !localStorage.getItem("vyzornavstyles") &&
-    !localStorage.getItem("vyzorverticalstyles") &&
+    !localStorage.getItem("foxyuxlayout") &&
+    !localStorage.getItem("foxyuxnavstyles") &&
+    !localStorage.getItem("foxyuxverticalstyles") &&
     !document.querySelector(".landing-body") &&
     document.querySelector("html").getAttribute("data-nav-layout") !==
     "horizontal"
@@ -367,7 +367,7 @@ let headerToggleBtn, WindowPreSize;
         "build/assets/libs/bootstrap/css/bootstrap.rtl.min.css"
       );
     //RTL
-    if (localStorage.getItem("vyzorrtl")) {
+    if (localStorage.getItem("foxyuxrtl")) {
       document.querySelector("#switcher-rtl").checked = true;
     }
   }
@@ -497,7 +497,7 @@ export function toggleSidemenu() {
             sidebar.removeEventListener("mouseleave", mouseLeave);
           } else {
             if (window.innerWidth >= 992) {
-              if (!localStorage.getItem("vyzorlayout")) {
+              if (!localStorage.getItem("foxyuxlayout")) {
                 html.setAttribute("data-toggled", "icon-overlay-close");
               }
               sidebar.addEventListener("mouseenter", mouseEntered);
@@ -729,7 +729,7 @@ export function doubletFn() {
     // Add an event listener to the menu slide item to show the tooltip
     e.addEventListener("mouseenter", () => {
       if (window.innerWidth >= 992) {
-        if (localStorage.vyzorverticalstyles == "doublemenu") {
+        if (localStorage.foxyuxverticalstyles == "doublemenu") {
           tooltip.style.setProperty("display", "block");
           tooltip.textContent =
             e.querySelector(".side-menu__label").textContent;

@@ -45,7 +45,7 @@
                                             aria-atomic="true">
                                             <div class="toast-header text-default">
                                                 <img class="bd-placeholder-img rounded me-2" src="{{asset('build/assets/images/brand-logos/favicon.ico')}}" alt="...">
-                                                <strong class="me-auto">Vyzor</strong>
+                                                <strong class="me-auto">foxyux</strong>
                                                 <small>11 mins ago</small>
                                                 <button type="button" class="btn-close" data-bs-dismiss="toast"
                                                     aria-label="Close"></button>
@@ -65,7 +65,7 @@
         aria-atomic="true"&gt;
         &lt;div class="toast-header text-default"&gt;
             &lt;img class="bd-placeholder-img rounded me-2" src="{{asset('build/assets/images/brand-logos/favicon.ico')}}" alt="..."&gt;
-            &lt;strong class="me-auto"&gt;Vyzor&lt;/strong&gt;
+            &lt;strong class="me-auto"&gt;foxyux&lt;/strong&gt;
             &lt;small&gt;11 mins ago&lt;/small&gt;
             &lt;button type="button" class="btn-close" data-bs-dismiss="toast"
                 aria-label="Close"&gt;&lt;/button&gt;
@@ -190,7 +190,7 @@
                                         <div class="toast-header text-default">
                                             <img class="bd-placeholder-img rounded me-2" src="{{asset('build/assets/images/brand-logos/favicon.ico')}}" alt="...">
 
-                                            <strong class="me-auto">Vyzor</strong>
+                                            <strong class="me-auto">foxyux</strong>
                                             <small>11 mins ago</small>
                                             <button type="button" class="btn-close" data-bs-dismiss="toast"
                                                 aria-label="Close"></button>
@@ -206,7 +206,7 @@
     &lt;div class="toast-header text-default"&gt;
         &lt;img class="bd-placeholder-img rounded me-2" src="{{asset('build/assets/images/brand-logos/favicon.ico')}}" alt="..."&gt;
 
-        &lt;strong class="me-auto"&gt;Vyzor&lt;/strong&gt;
+        &lt;strong class="me-auto"&gt;foxyux&lt;/strong&gt;
         &lt;small&gt;11 mins ago&lt;/small&gt;
         &lt;button type="button" class="btn-close" data-bs-dismiss="toast"
             aria-label="Close"&gt;&lt;/button&gt;
@@ -234,7 +234,7 @@
                                             <div class="toast-header text-default">
                                                 <img class="bd-placeholder-img rounded me-2" src="{{asset('build/assets/images/brand-logos/favicon.ico')}}" alt="...">
 
-                                                <strong class="me-auto">Vyzor</strong>
+                                                <strong class="me-auto">foxyux</strong>
                                                 <small class="text-muted">just now</small>
                                                 <button type="button" class="btn-close" data-bs-dismiss="toast"
                                                     aria-label="Close"></button>
@@ -248,7 +248,7 @@
                                             <div class="toast-header text-default">
                                                 <img class="bd-placeholder-img rounded me-2" src="{{asset('build/assets/images/brand-logos/favicon.ico')}}" alt="...">
 
-                                                <strong class="me-auto">Vyzor</strong>
+                                                <strong class="me-auto">foxyux</strong>
                                                 <small class="text-muted">2 seconds ago</small>
                                                 <button type="button" class="btn-close" data-bs-dismiss="toast"
                                                     aria-label="Close"></button>
@@ -267,7 +267,7 @@
         &lt;div class="toast-header text-default"&gt;
             &lt;img class="bd-placeholder-img rounded me-2" src="{{asset('build/assets/images/brand-logos/favicon.ico')}}" alt="..."&gt;
 
-            &lt;strong class="me-auto"&gt;Vyzor&lt;/strong&gt;
+            &lt;strong class="me-auto"&gt;foxyux&lt;/strong&gt;
             &lt;small class="text-muted"&gt;just now&lt;/small&gt;
             &lt;button type="button" class="btn-close" data-bs-dismiss="toast"
                 aria-label="Close"&gt;&lt;/button&gt;
@@ -281,7 +281,7 @@
         &lt;div class="toast-header text-default"&gt;
             &lt;img class="bd-placeholder-img rounded me-2" src="{{asset('build/assets/images/brand-logos/favicon.ico')}}" alt="..."&gt;
 
-            &lt;strong class="me-auto"&gt;Vyzor&lt;/strong&gt;
+            &lt;strong class="me-auto"&gt;foxyux&lt;/strong&gt;
             &lt;small class="text-muted"&gt;2 seconds ago&lt;/small&gt;
             &lt;button type="button" class="btn-close" data-bs-dismiss="toast"
                 aria-label="Close"&gt;&lt;/button&gt;
@@ -310,7 +310,7 @@
                                         <div class="toast-header text-default">
                                             <img class="bd-placeholder-img rounded me-2" src="{{asset('build/assets/images/brand-logos/favicon.ico')}}" alt="...">
 
-                                            <strong class="me-auto">Vyzor</strong>
+                                            <strong class="me-auto">foxyux</strong>
                                             <small class="text-muted">11 mins ago</small>
                                             <button type="button" class="btn-close" data-bs-dismiss="toast"
                                                 aria-label="Close"></button>
@@ -326,7 +326,7 @@
     &lt;div class="toast-header text-default"&gt;
         &lt;img class="bd-placeholder-img rounded me-2" src="{{asset('build/assets/images/brand-logos/favicon.ico')}}" alt="..."&gt;
 
-        &lt;strong class="me-auto"&gt;Vyzor&lt;/strong&gt;
+        &lt;strong class="me-auto"&gt;foxyux&lt;/strong&gt;
         &lt;small class="text-muted"&gt;11 mins ago&lt;/small&gt;
         &lt;button type="button" class="btn-close" data-bs-dismiss="toast"
             aria-label="Close"&gt;&lt;/button&gt;
@@ -442,7 +442,7 @@
                                             aria-atomic="true">
                                             <div class="toast-header bg-primary">
                                                 <img class="bd-placeholder-img rounded me-2" src="{{asset('build/assets/images/brand-logos/toggle-dark.png')}}" alt="...">
-                                                <strong class="me-auto text-fixed-white">Vyzor</strong>
+                                                <strong class="me-auto text-fixed-white">foxyux</strong>
                                                 <button type="button" class="btn-close" data-bs-dismiss="toast"
                                                     aria-label="Close"></button>
                                             </div>
@@ -454,7 +454,7 @@
                                             aria-atomic="true">
                                             <div class="toast-header bg-secondary text-fixed-white">
                                                 <img class="bd-placeholder-img rounded me-2" src="{{asset('build/assets/images/brand-logos/toggle-dark.png')}}" alt="...">
-                                                <strong class="me-auto">Vyzor</strong>
+                                                <strong class="me-auto">foxyux</strong>
                                                 <button type="button" class="btn-close" data-bs-dismiss="toast"
                                                     aria-label="Close"></button>
                                             </div>
@@ -466,7 +466,7 @@
                                             aria-atomic="true">
                                             <div class="toast-header bg-warning text-fixed-white">
                                                 <img class="bd-placeholder-img rounded me-2" src="{{asset('build/assets/images/brand-logos/toggle-dark.png')}}" alt="...">
-                                                <strong class="me-auto">Vyzor</strong>
+                                                <strong class="me-auto">foxyux</strong>
                                                 <button type="button" class="btn-close" data-bs-dismiss="toast"
                                                     aria-label="Close"></button>
                                             </div>
@@ -478,7 +478,7 @@
                                             aria-atomic="true">
                                             <div class="toast-header bg-info text-fixed-white">
                                                 <img class="bd-placeholder-img rounded me-2" src="{{asset('build/assets/images/brand-logos/toggle-dark.png')}}" alt="...">
-                                                <strong class="me-auto">Vyzor</strong>
+                                                <strong class="me-auto">foxyux</strong>
                                                 <button type="button" class="btn-close" data-bs-dismiss="toast"
                                                     aria-label="Close"></button>
                                             </div>
@@ -490,7 +490,7 @@
                                             aria-atomic="true">
                                             <div class="toast-header bg-success text-fixed-white">
                                                 <img class="bd-placeholder-img rounded me-2" src="{{asset('build/assets/images/brand-logos/toggle-dark.png')}}" alt="...">
-                                                <strong class="me-auto">Vyzor</strong>
+                                                <strong class="me-auto">foxyux</strong>
                                                 <button type="button" class="btn-close" data-bs-dismiss="toast"
                                                     aria-label="Close"></button>
                                             </div>
@@ -502,7 +502,7 @@
                                             aria-atomic="true">
                                             <div class="toast-header bg-danger text-fixed-white">
                                                 <img class="bd-placeholder-img rounded me-2" src="{{asset('build/assets/images/brand-logos/toggle-dark.png')}}" alt="...">
-                                                <strong class="me-auto">Vyzor</strong>
+                                                <strong class="me-auto">foxyux</strong>
                                                 <button type="button" class="btn-close" data-bs-dismiss="toast"
                                                     aria-label="Close"></button>
                                             </div>
@@ -527,7 +527,7 @@
         aria-atomic="true"&gt;
         &lt;div class="toast-header bg-primary"&gt;
             &lt;img class="bd-placeholder-img rounded me-2" src="{{asset('build/assets/images/brand-logos/toggle-dark.png')}}" alt="..."&gt;
-            &lt;strong class="me-auto"&gt;Vyzor&lt;/strong&gt;
+            &lt;strong class="me-auto"&gt;foxyux&lt;/strong&gt;
             &lt;button type="button" class="btn-close" data-bs-dismiss="toast"
                 aria-label="Close"&gt;&lt;/button&gt;
         &lt;/div&gt;
@@ -539,7 +539,7 @@
         aria-atomic="true"&gt;
         &lt;div class="toast-header bg-secondary text-fixed-white"&gt;
             &lt;img class="bd-placeholder-img rounded me-2" src="{{asset('build/assets/images/brand-logos/toggle-dark.png')}}" alt="..."&gt;
-            &lt;strong class="me-auto"&gt;Vyzor&lt;/strong&gt;
+            &lt;strong class="me-auto"&gt;foxyux&lt;/strong&gt;
             &lt;button type="button" class="btn-close" data-bs-dismiss="toast"
                 aria-label="Close"&gt;&lt;/button&gt;
         &lt;/div&gt;
@@ -551,7 +551,7 @@
         aria-atomic="true"&gt;
         &lt;div class="toast-header bg-warning text-fixed-white"&gt;
             &lt;img class="bd-placeholder-img rounded me-2" src="{{asset('build/assets/images/brand-logos/toggle-dark.png')}}" alt="..."&gt;
-            &lt;strong class="me-auto"&gt;Vyzor&lt;/strong&gt;
+            &lt;strong class="me-auto"&gt;foxyux&lt;/strong&gt;
             &lt;button type="button" class="btn-close" data-bs-dismiss="toast"
                 aria-label="Close"&gt;&lt;/button&gt;
         &lt;/div&gt;
@@ -563,7 +563,7 @@
         aria-atomic="true"&gt;
         &lt;div class="toast-header bg-info text-fixed-white"&gt;
             &lt;img class="bd-placeholder-img rounded me-2" src="{{asset('build/assets/images/brand-logos/toggle-dark.png')}}" alt="..."&gt;
-            &lt;strong class="me-auto"&gt;Vyzor&lt;/strong&gt;
+            &lt;strong class="me-auto"&gt;foxyux&lt;/strong&gt;
             &lt;button type="button" class="btn-close" data-bs-dismiss="toast"
                 aria-label="Close"&gt;&lt;/button&gt;
         &lt;/div&gt;
@@ -575,7 +575,7 @@
         aria-atomic="true"&gt;
         &lt;div class="toast-header bg-success text-fixed-white"&gt;
             &lt;img class="bd-placeholder-img rounded me-2" src="{{asset('build/assets/images/brand-logos/toggle-dark.png')}}" alt="..."&gt;
-            &lt;strong class="me-auto"&gt;Vyzor&lt;/strong&gt;
+            &lt;strong class="me-auto"&gt;foxyux&lt;/strong&gt;
             &lt;button type="button" class="btn-close" data-bs-dismiss="toast"
                 aria-label="Close"&gt;&lt;/button&gt;
         &lt;/div&gt;
@@ -587,7 +587,7 @@
         aria-atomic="true"&gt;
         &lt;div class="toast-header bg-danger text-fixed-white"&gt;
             &lt;img class="bd-placeholder-img rounded me-2" src="{{asset('build/assets/images/brand-logos/toggle-dark.png')}}" alt="..."&gt;
-            &lt;strong class="me-auto"&gt;Vyzor&lt;/strong&gt;
+            &lt;strong class="me-auto"&gt;foxyux&lt;/strong&gt;
             &lt;button type="button" class="btn-close" data-bs-dismiss="toast"
                 aria-label="Close"&gt;&lt;/button&gt;
         &lt;/div&gt;
@@ -624,7 +624,7 @@
                                             aria-atomic="true">
                                             <div class="toast-header bg-primary">
                                                 <img class="bd-placeholder-img rounded me-2" src="{{asset('build/assets/images/brand-logos/toggle-dark.png')}}" alt="...">
-                                                <strong class="me-auto text-fixed-white">Vyzor</strong>
+                                                <strong class="me-auto text-fixed-white">foxyux</strong>
                                                 <button type="button" class="btn-close" data-bs-dismiss="toast"
                                                     aria-label="Close"></button>
                                             </div>
@@ -636,7 +636,7 @@
                                             aria-atomic="true">
                                             <div class="toast-header bg-secondary text-fixed-white">
                                                 <img class="bd-placeholder-img rounded me-2" src="{{asset('build/assets/images/brand-logos/toggle-dark.png')}}" alt="...">
-                                                <strong class="me-auto">Vyzor</strong>
+                                                <strong class="me-auto">foxyux</strong>
                                                 <button type="button" class="btn-close" data-bs-dismiss="toast"
                                                     aria-label="Close"></button>
                                             </div>
@@ -648,7 +648,7 @@
                                             aria-atomic="true">
                                             <div class="toast-header bg-warning text-fixed-white">
                                                 <img class="bd-placeholder-img rounded me-2" src="{{asset('build/assets/images/brand-logos/toggle-dark.png')}}" alt="...">
-                                                <strong class="me-auto">Vyzor</strong>
+                                                <strong class="me-auto">foxyux</strong>
                                                 <button type="button" class="btn-close" data-bs-dismiss="toast"
                                                     aria-label="Close"></button>
                                             </div>
@@ -660,7 +660,7 @@
                                             aria-atomic="true">
                                             <div class="toast-header bg-info text-fixed-white">
                                                 <img class="bd-placeholder-img rounded me-2" src="{{asset('build/assets/images/brand-logos/toggle-dark.png')}}" alt="...">
-                                                <strong class="me-auto">Vyzor</strong>
+                                                <strong class="me-auto">foxyux</strong>
                                                 <button type="button" class="btn-close" data-bs-dismiss="toast"
                                                     aria-label="Close"></button>
                                             </div>
@@ -672,7 +672,7 @@
                                             aria-atomic="true">
                                             <div class="toast-header bg-success text-fixed-white">
                                                 <img class="bd-placeholder-img rounded me-2" src="{{asset('build/assets/images/brand-logos/toggle-dark.png')}}" alt="...">
-                                                <strong class="me-auto">Vyzor</strong>
+                                                <strong class="me-auto">foxyux</strong>
                                                 <button type="button" class="btn-close" data-bs-dismiss="toast"
                                                     aria-label="Close"></button>
                                             </div>
@@ -684,7 +684,7 @@
                                             aria-atomic="true">
                                             <div class="toast-header bg-danger text-fixed-white">
                                                 <img class="bd-placeholder-img rounded me-2" src="{{asset('build/assets/images/brand-logos/toggle-dark.png')}}" alt="...">
-                                                <strong class="me-auto">Vyzor</strong>
+                                                <strong class="me-auto">foxyux</strong>
                                                 <button type="button" class="btn-close" data-bs-dismiss="toast"
                                                     aria-label="Close"></button>
                                             </div>
@@ -709,7 +709,7 @@
         aria-atomic="true"&gt;
         &lt;div class="toast-header bg-primary"&gt;
             &lt;img class="bd-placeholder-img rounded me-2" src="{{asset('build/assets/images/brand-logos/toggle-dark.png')}}" alt="..."&gt;
-            &lt;strong class="me-auto"&gt;Vyzor&lt;/strong&gt;
+            &lt;strong class="me-auto"&gt;foxyux&lt;/strong&gt;
             &lt;button type="button" class="btn-close" data-bs-dismiss="toast"
                 aria-label="Close"&gt;&lt;/button&gt;
         &lt;/div&gt;
@@ -721,7 +721,7 @@
         aria-atomic="true"&gt;
         &lt;div class="toast-header bg-secondary text-fixed-white"&gt;
             &lt;img class="bd-placeholder-img rounded me-2" src="{{asset('build/assets/images/brand-logos/toggle-dark.png')}}" alt="..."&gt;
-            &lt;strong class="me-auto"&gt;Vyzor&lt;/strong&gt;
+            &lt;strong class="me-auto"&gt;foxyux&lt;/strong&gt;
             &lt;button type="button" class="btn-close" data-bs-dismiss="toast"
                 aria-label="Close"&gt;&lt;/button&gt;
         &lt;/div&gt;
@@ -733,7 +733,7 @@
         aria-atomic="true"&gt;
         &lt;div class="toast-header bg-warning text-fixed-white"&gt;
             &lt;img class="bd-placeholder-img rounded me-2" src="{{asset('build/assets/images/brand-logos/toggle-dark.png')}}" alt="..."&gt;
-            &lt;strong class="me-auto"&gt;Vyzor&lt;/strong&gt;
+            &lt;strong class="me-auto"&gt;foxyux&lt;/strong&gt;
             &lt;button type="button" class="btn-close" data-bs-dismiss="toast"
                 aria-label="Close"&gt;&lt;/button&gt;
         &lt;/div&gt;
@@ -745,7 +745,7 @@
         aria-atomic="true"&gt;
         &lt;div class="toast-header bg-info text-fixed-white"&gt;
             &lt;img class="bd-placeholder-img rounded me-2" src="{{asset('build/assets/images/brand-logos/toggle-dark.png')}}" alt="..."&gt;
-            &lt;strong class="me-auto"&gt;Vyzor&lt;/strong&gt;
+            &lt;strong class="me-auto"&gt;foxyux&lt;/strong&gt;
             &lt;button type="button" class="btn-close" data-bs-dismiss="toast"
                 aria-label="Close"&gt;&lt;/button&gt;
         &lt;/div&gt;
@@ -757,7 +757,7 @@
         aria-atomic="true"&gt;
         &lt;div class="toast-header bg-success text-fixed-white"&gt;
             &lt;img class="bd-placeholder-img rounded me-2" src="{{asset('build/assets/images/brand-logos/toggle-dark.png')}}" alt="..."&gt;
-            &lt;strong class="me-auto"&gt;Vyzor&lt;/strong&gt;
+            &lt;strong class="me-auto"&gt;foxyux&lt;/strong&gt;
             &lt;button type="button" class="btn-close" data-bs-dismiss="toast"
                 aria-label="Close"&gt;&lt;/button&gt;
         &lt;/div&gt;
@@ -769,7 +769,7 @@
         aria-atomic="true"&gt;
         &lt;div class="toast-header bg-danger text-fixed-white"&gt;
             &lt;img class="bd-placeholder-img rounded me-2" src="{{asset('build/assets/images/brand-logos/toggle-dark.png')}}" alt="..."&gt;
-            &lt;strong class="me-auto"&gt;Vyzor&lt;/strong&gt;
+            &lt;strong class="me-auto"&gt;foxyux&lt;/strong&gt;
             &lt;button type="button" class="btn-close" data-bs-dismiss="toast"
                 aria-label="Close"&gt;&lt;/button&gt;
         &lt;/div&gt;
@@ -814,7 +814,7 @@
                                             aria-atomic="true">
                                             <div class="toast-header bg-primary">
                                                 <img class="bd-placeholder-img rounded me-2" src="{{asset('build/assets/images/brand-logos/toggle-dark.png')}}" alt="...">
-                                                <strong class="me-auto text-fixed-white">Vyzor</strong>
+                                                <strong class="me-auto text-fixed-white">foxyux</strong>
                                                 <button type="button" class="btn-close" data-bs-dismiss="toast"
                                                     aria-label="Close"></button>
                                             </div>
@@ -828,7 +828,7 @@
                                             aria-atomic="true">
                                             <div class="toast-header bg-primary">
                                                 <img class="bd-placeholder-img rounded me-2" src="{{asset('build/assets/images/brand-logos/toggle-dark.png')}}" alt="...">
-                                                <strong class="me-auto text-fixed-white">Vyzor</strong>
+                                                <strong class="me-auto text-fixed-white">foxyux</strong>
                                                 <button type="button" class="btn-close" data-bs-dismiss="toast"
                                                     aria-label="Close"></button>
                                             </div>
@@ -842,7 +842,7 @@
                                             aria-atomic="true">
                                             <div class="toast-header bg-primary">
                                                 <img class="bd-placeholder-img rounded me-2" src="{{asset('build/assets/images/brand-logos/toggle-dark.png')}}" alt="...">
-                                                <strong class="me-auto text-fixed-white">Vyzor</strong>
+                                                <strong class="me-auto text-fixed-white">foxyux</strong>
                                                 <button type="button" class="btn-close" data-bs-dismiss="toast"
                                                     aria-label="Close"></button>
                                             </div>
@@ -856,7 +856,7 @@
                                             aria-atomic="true">
                                             <div class="toast-header bg-primary">
                                                 <img class="bd-placeholder-img rounded me-2" src="{{asset('build/assets/images/brand-logos/toggle-dark.png')}}" alt="...">
-                                                <strong class="me-auto text-fixed-white">Vyzor</strong>
+                                                <strong class="me-auto text-fixed-white">foxyux</strong>
                                                 <button type="button" class="btn-close" data-bs-dismiss="toast"
                                                     aria-label="Close"></button>
                                             </div>
@@ -870,7 +870,7 @@
                                             aria-atomic="true">
                                             <div class="toast-header bg-primary">
                                                 <img class="bd-placeholder-img rounded me-2" src="{{asset('build/assets/images/brand-logos/toggle-dark.png')}}" alt="...">
-                                                <strong class="me-auto text-fixed-white">Vyzor</strong>
+                                                <strong class="me-auto text-fixed-white">foxyux</strong>
                                                 <button type="button" class="btn-close" data-bs-dismiss="toast"
                                                     aria-label="Close"></button>
                                             </div>
@@ -884,7 +884,7 @@
                                             aria-atomic="true">
                                             <div class="toast-header bg-primary">
                                                 <img class="bd-placeholder-img rounded me-2" src="{{asset('build/assets/images/brand-logos/toggle-dark.png')}}" alt="...">
-                                                <strong class="me-auto text-fixed-white">Vyzor</strong>
+                                                <strong class="me-auto text-fixed-white">foxyux</strong>
                                                 <button type="button" class="btn-close" data-bs-dismiss="toast"
                                                     aria-label="Close"></button>
                                             </div>
@@ -898,7 +898,7 @@
                                             aria-atomic="true">
                                             <div class="toast-header bg-primary">
                                                 <img class="bd-placeholder-img rounded me-2" src="{{asset('build/assets/images/brand-logos/toggle-dark.png')}}" alt="...">
-                                                <strong class="me-auto text-fixed-white">Vyzor</strong>
+                                                <strong class="me-auto text-fixed-white">foxyux</strong>
                                                 <button type="button" class="btn-close" data-bs-dismiss="toast"
                                                     aria-label="Close"></button>
                                             </div>
@@ -912,7 +912,7 @@
                                             aria-atomic="true">
                                             <div class="toast-header bg-primary">
                                                 <img class="bd-placeholder-img rounded me-2" src="{{asset('build/assets/images/brand-logos/toggle-dark.png')}}" alt="...">
-                                                <strong class="me-auto text-fixed-white">Vyzor</strong>
+                                                <strong class="me-auto text-fixed-white">foxyux</strong>
                                                 <button type="button" class="btn-close" data-bs-dismiss="toast"
                                                     aria-label="Close"></button>
                                             </div>
@@ -926,7 +926,7 @@
                                             aria-atomic="true">
                                             <div class="toast-header bg-primary">
                                                 <img class="bd-placeholder-img rounded me-2" src="{{asset('build/assets/images/brand-logos/toggle-dark.png')}}" alt="...">
-                                                <strong class="me-auto text-fixed-white">Vyzor</strong>
+                                                <strong class="me-auto text-fixed-white">foxyux</strong>
                                                 <button type="button" class="btn-close" data-bs-dismiss="toast"
                                                     aria-label="Close"></button>
                                             </div>
@@ -954,7 +954,7 @@
         aria-atomic="true"&gt;
         &lt;div class="toast-header bg-primary"&gt;
             &lt;img class="bd-placeholder-img rounded me-2" src="{{asset('build/assets/images/brand-logos/toggle-dark.png')}}" alt="..."&gt;
-            &lt;strong class="me-auto"&gt;Vyzor&lt;/strong&gt;
+            &lt;strong class="me-auto"&gt;foxyux&lt;/strong&gt;
             &lt;button type="button" class="btn-close" data-bs-dismiss="toast"
                 aria-label="Close"&gt;&lt;/button&gt;
         &lt;/div&gt;
@@ -968,7 +968,7 @@
         aria-atomic="true"&gt;
         &lt;div class="toast-header bg-primary"&gt;
             &lt;img class="bd-placeholder-img rounded me-2" src="{{asset('build/assets/images/brand-logos/toggle-dark.png')}}" alt="..."&gt;
-            &lt;strong class="me-auto"&gt;Vyzor&lt;/strong&gt;
+            &lt;strong class="me-auto"&gt;foxyux&lt;/strong&gt;
             &lt;button type="button" class="btn-close" data-bs-dismiss="toast"
                 aria-label="Close"&gt;&lt;/button&gt;
         &lt;/div&gt;
@@ -982,7 +982,7 @@
         aria-atomic="true"&gt;
         &lt;div class="toast-header bg-primary"&gt;
             &lt;img class="bd-placeholder-img rounded me-2" src="{{asset('build/assets/images/brand-logos/toggle-dark.png')}}" alt="..."&gt;
-            &lt;strong class="me-auto"&gt;Vyzor&lt;/strong&gt;
+            &lt;strong class="me-auto"&gt;foxyux&lt;/strong&gt;
             &lt;button type="button" class="btn-close" data-bs-dismiss="toast"
                 aria-label="Close"&gt;&lt;/button&gt;
         &lt;/div&gt;
@@ -996,7 +996,7 @@
         aria-atomic="true"&gt;
         &lt;div class="toast-header bg-primary"&gt;
             &lt;img class="bd-placeholder-img rounded me-2" src="{{asset('build/assets/images/brand-logos/toggle-dark.png')}}" alt="..."&gt;
-            &lt;strong class="me-auto"&gt;Vyzor&lt;/strong&gt;
+            &lt;strong class="me-auto"&gt;foxyux&lt;/strong&gt;
             &lt;button type="button" class="btn-close" data-bs-dismiss="toast"
                 aria-label="Close"&gt;&lt;/button&gt;
         &lt;/div&gt;
@@ -1010,7 +1010,7 @@
         aria-atomic="true"&gt;
         &lt;div class="toast-header bg-primary"&gt;
             &lt;img class="bd-placeholder-img rounded me-2" src="{{asset('build/assets/images/brand-logos/toggle-dark.png')}}" alt="..."&gt;
-            &lt;strong class="me-auto"&gt;Vyzor&lt;/strong&gt;
+            &lt;strong class="me-auto"&gt;foxyux&lt;/strong&gt;
             &lt;button type="button" class="btn-close" data-bs-dismiss="toast"
                 aria-label="Close"&gt;&lt;/button&gt;
         &lt;/div&gt;
@@ -1024,7 +1024,7 @@
         aria-atomic="true"&gt;
         &lt;div class="toast-header bg-primary"&gt;
             &lt;img class="bd-placeholder-img rounded me-2" src="{{asset('build/assets/images/brand-logos/toggle-dark.png')}}" alt="..."&gt;
-            &lt;strong class="me-auto"&gt;Vyzor&lt;/strong&gt;
+            &lt;strong class="me-auto"&gt;foxyux&lt;/strong&gt;
             &lt;button type="button" class="btn-close" data-bs-dismiss="toast"
                 aria-label="Close"&gt;&lt;/button&gt;
         &lt;/div&gt;
@@ -1038,7 +1038,7 @@
         aria-atomic="true"&gt;
         &lt;div class="toast-header bg-primary"&gt;
             &lt;img class="bd-placeholder-img rounded me-2" src="{{asset('build/assets/images/brand-logos/toggle-dark.png')}}" alt="..."&gt;
-            &lt;strong class="me-auto"&gt;Vyzor&lt;/strong&gt;
+            &lt;strong class="me-auto"&gt;foxyux&lt;/strong&gt;
             &lt;button type="button" class="btn-close" data-bs-dismiss="toast"
                 aria-label="Close"&gt;&lt;/button&gt;
         &lt;/div&gt;
@@ -1052,7 +1052,7 @@
         aria-atomic="true"&gt;
         &lt;div class="toast-header bg-primary"&gt;
             &lt;img class="bd-placeholder-img rounded me-2" src="{{asset('build/assets/images/brand-logos/toggle-dark.png')}}" alt="..."&gt;
-            &lt;strong class="me-auto"&gt;Vyzor&lt;/strong&gt;
+            &lt;strong class="me-auto"&gt;foxyux&lt;/strong&gt;
             &lt;button type="button" class="btn-close" data-bs-dismiss="toast"
                 aria-label="Close"&gt;&lt;/button&gt;
         &lt;/div&gt;
@@ -1066,7 +1066,7 @@
         aria-atomic="true"&gt;
         &lt;div class="toast-header bg-primary"&gt;
             &lt;img class="bd-placeholder-img rounded me-2" src="{{asset('build/assets/images/brand-logos/toggle-dark.png')}}" alt="..."&gt;
-            &lt;strong class="me-auto"&gt;Vyzor&lt;/strong&gt;
+            &lt;strong class="me-auto"&gt;foxyux&lt;/strong&gt;
             &lt;button type="button" class="btn-close" data-bs-dismiss="toast"
                 aria-label="Close"&gt;&lt;/button&gt;
         &lt;/div&gt;
@@ -1102,7 +1102,7 @@
                                                 aria-atomic="true">
                                                 <div class="toast-header text-default">
                                                     <img class="bd-placeholder-img rounded me-2" src="{{asset('build/assets/images/brand-logos/favicon.ico')}}" alt="...">
-                                                    <strong class="me-auto">Vyzor</strong>
+                                                    <strong class="me-auto">foxyux</strong>
                                                     <small>11 mins ago</small>
                                                     <button type="button" class="btn-close" data-bs-dismiss="toast"
                                                         aria-label="Close"></button>
@@ -1123,7 +1123,7 @@
             aria-atomic="true"&gt;
             &lt;div class="toast-header text-default"&gt;
                 &lt;img class="bd-placeholder-img rounded me-2" src="{{asset('build/assets/images/brand-logos/favicon.ico')}}" alt="..."&gt;
-                &lt;strong class="me-auto"&gt;Vyzor&lt;/strong&gt;
+                &lt;strong class="me-auto"&gt;foxyux&lt;/strong&gt;
                 &lt;small&gt;11 mins ago&lt;/small&gt;
                 &lt;button type="button" class="btn-close" data-bs-dismiss="toast"
                     aria-label="Close"&gt;&lt;/button&gt;

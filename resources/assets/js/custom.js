@@ -313,9 +313,9 @@
         document.querySelector("#switcher-background1").checked = false;
         document.querySelector("#switcher-background").checked = false;
       }
-      localStorage.removeItem("vyzordarktheme");
-      localStorage.removeItem("vyzorMenu");
-      localStorage.removeItem("vyzorHeader");
+      localStorage.removeItem("foxyuxdarktheme");
+      localStorage.removeItem("foxyuxMenu");
+      localStorage.removeItem("foxyuxHeader");
       localStorage.removeItem("bodylightRGB");
       localStorage.removeItem("bodyBgRGB");
       html.setAttribute("data-header-styles", "transparent");
@@ -341,9 +341,9 @@
         document.querySelector("#switcher-background1").checked = false;
         document.querySelector("#switcher-background").checked = false;
       }
-      localStorage.setItem("vyzordarktheme", "true");
-      localStorage.setItem("vyzorMenu", "transparent");
-      localStorage.setItem("vyzorHeader", "transparent");
+      localStorage.setItem("foxyuxdarktheme", "true");
+      localStorage.setItem("foxyuxMenu", "transparent");
+      localStorage.setItem("foxyuxHeader", "transparent");
       localStorage.removeItem("bodylightRGB");
       localStorage.removeItem("bodyBgRGB");
     }
@@ -387,9 +387,9 @@
           document.querySelector("#switcher-background1").checked = false;
           document.querySelector("#switcher-background").checked = false;
         }
-        localStorage.removeItem("vyzordarktheme");
-        localStorage.removeItem("vyzorMenu");
-        localStorage.removeItem("vyzorHeader");
+        localStorage.removeItem("foxyuxdarktheme");
+        localStorage.removeItem("foxyuxMenu");
+        localStorage.removeItem("foxyuxHeader");
         localStorage.removeItem("bodylightRGB");
         localStorage.removeItem("bodyBgRGB");
         html.setAttribute("data-header-styles", "transparent");
@@ -414,9 +414,9 @@
           document.querySelector("#switcher-background1").checked = false;
           document.querySelector("#switcher-background").checked = false;
         }
-        localStorage.setItem("vyzordarktheme", "true");
-        localStorage.setItem("vyzorMenu", "transparent");
-        localStorage.setItem("vyzorHeader", "transparent");
+        localStorage.setItem("foxyuxdarktheme", "true");
+        localStorage.setItem("foxyuxMenu", "transparent");
+        localStorage.setItem("foxyuxHeader", "transparent");
         localStorage.removeItem("bodylightRGB");
         localStorage.removeItem("bodyBgRGB");
       }

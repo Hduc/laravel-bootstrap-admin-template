@@ -83,7 +83,7 @@
                     <!-- End:: row-1 -->
 
                     <!-- Start::row-2 -->
-                    <div class="VYZOR-kanban-board">
+                    <div class="foxyux-kanban-board">
                         <div class="kanban-tasks-type new">
                             <div class="pe-3 mb-3">
                                 <div class="d-flex justify-content-between align-items-center">

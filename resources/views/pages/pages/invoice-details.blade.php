@@ -52,7 +52,7 @@
                                                         Georgetown,Washington D.C,USA,200071
                                                     </p>
                                                     <p class="mb-1 text-muted">
-                                                        sprukotrust.VYZOR@gmail.com
+                                                        sprukotrust.foxyux@gmail.com
                                                     </p>
                                                     <p class="mb-1 text-muted">
                                                         (555) 555-1234

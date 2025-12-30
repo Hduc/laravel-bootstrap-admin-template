@@ -118,8 +118,8 @@ function switcherClick() {
         document.querySelector('#switcher-dark-theme').checked = true;
         document.querySelector('#switcher-menu-dark').checked = true;
         document.querySelector('#switcher-header-dark').checked = true;
-        localStorage.setItem("vyzorMenu", "dark");
-        localStorage.setItem("vyzorHeader", "dark");
+        localStorage.setItem("foxyuxMenu", "dark");
+        localStorage.setItem("foxyuxHeader", "dark");
     })
     let backgroundColor2Var = bgDefaultColor2Btn.addEventListener('click', () => {
         localStorage.setItem('bodyBgRGB', "58, 0, 109");
@@ -136,8 +136,8 @@ function switcherClick() {
         document.querySelector('#switcher-dark-theme').checked = true;
         document.querySelector('#switcher-menu-dark').checked = true;
         document.querySelector('#switcher-header-dark').checked = true;
-        localStorage.setItem("vyzorMenu", "dark");
-        localStorage.setItem("vyzorHeader", "dark");
+        localStorage.setItem("foxyuxMenu", "dark");
+        localStorage.setItem("foxyuxHeader", "dark");
     })
     let backgroundColor3Var = bgDefaultColor3Btn.addEventListener('click', () => {
         localStorage.setItem('bodyBgRGB', "0 ,59, 70");
@@ -154,8 +154,8 @@ function switcherClick() {
         document.querySelector('#switcher-dark-theme').checked = true;
         document.querySelector('#switcher-menu-dark').checked = true;
         document.querySelector('#switcher-header-dark').checked = true;
-        localStorage.setItem("vyzorMenu", "dark");
-        localStorage.setItem("vyzorHeader", "dark");
+        localStorage.setItem("foxyuxMenu", "dark");
+        localStorage.setItem("foxyuxHeader", "dark");
     })
     let backgroundColor4Var = bgDefaultColor4Btn.addEventListener('click', () => {
         localStorage.setItem('bodyBgRGB', "65, 0, 0");
@@ -172,8 +172,8 @@ function switcherClick() {
         document.querySelector('#switcher-dark-theme').checked = true;
         document.querySelector('#switcher-menu-dark').checked = true;
         document.querySelector('#switcher-header-dark').checked = true;
-        localStorage.setItem("vyzorMenu", "dark");
-        localStorage.setItem("vyzorHeader", "dark");
+        localStorage.setItem("foxyuxMenu", "dark");
+        localStorage.setItem("foxyuxHeader", "dark");
     })
     let backgroundColor5Var = bgDefaultColor5Btn.addEventListener('click', () => {
         localStorage.setItem('bodyBgRGB', "1 ,77, 46");
@@ -190,8 +190,8 @@ function switcherClick() {
         document.querySelector('#switcher-dark-theme').checked = true;
         document.querySelector('#switcher-menu-dark').checked = true;
         document.querySelector('#switcher-header-dark').checked = true;
-        localStorage.setItem("vyzorMenu", "dark");
-        localStorage.setItem("vyzorHeader", "dark");
+        localStorage.setItem("foxyuxMenu", "dark");
+        localStorage.setItem("foxyuxHeader", "dark");
     })
 
     // Bg image
@@ -219,10 +219,10 @@ function switcherClick() {
     /* Light Layout Start */
     let lightThemeVar = lightBtn.addEventListener('click', () => {
         lightFn();
-        localStorage.setItem("vyzorHeader", 'light');
+        localStorage.setItem("foxyuxHeader", 'light');
         localStorage.removeItem("bodylightRGB")
         localStorage.removeItem("bodyBgRGB")
-        localStorage.removeItem("vyzorMenu")
+        localStorage.removeItem("foxyuxMenu")
         if (html.getAttribute('data-nav-layout') === 'horizontal') {
             html.setAttribute('data-header-styles', 'transparent');
         }
@@ -232,8 +232,8 @@ function switcherClick() {
     /* Dark Layout Start */
     let darkThemeVar = darkBtn.addEventListener('click', () => {
         darkFn();
-        localStorage.setItem("vyzorMenu", 'dark');
-        localStorage.setItem("vyzorHeader", 'transparent');
+        localStorage.setItem("foxyuxMenu", 'dark');
+        localStorage.setItem("foxyuxHeader", 'transparent');
         if (html.getAttribute('data-nav-layout') === 'horizontal') {
             html.setAttribute('data-header-styles', 'dark');
         }
@@ -243,97 +243,97 @@ function switcherClick() {
     /* Light Menu Start */
     let lightMenuVar = lightMenuBtn.addEventListener('click', () => {
         html.setAttribute('data-menu-styles', 'light');
-        localStorage.setItem("vyzorMenu", 'light');
+        localStorage.setItem("foxyuxMenu", 'light');
     });
     /* Light Menu End */
 
     /* Color Menu Start */
     let colorMenuVar = colorMenuBtn.addEventListener('click', () => {
         html.setAttribute('data-menu-styles', 'color');
-        localStorage.setItem("vyzorMenu", 'color');
+        localStorage.setItem("foxyuxMenu", 'color');
     });
     /* Color Menu End */
 
     /* Dark Menu Start */
     let darkMenuVar = darkMenuBtn.addEventListener('click', () => {
         html.setAttribute('data-menu-styles', 'dark');
-        localStorage.setItem("vyzorMenu", 'dark');
+        localStorage.setItem("foxyuxMenu", 'dark');
     });
     /* Dark Menu End */
 
     /* Gradient Menu Start */
     let gradientMenuVar = gradientMenuBtn.addEventListener('click', () => {
         html.setAttribute('data-menu-styles', 'gradient');
-        localStorage.setItem("vyzorMenu", 'gradient');
+        localStorage.setItem("foxyuxMenu", 'gradient');
     });
     /* Gradient Menu End */
 
     /* Transparent Menu Start */
     let transparentMenuVar = transparentMenuBtn.addEventListener('click', () => {
         html.setAttribute('data-menu-styles', 'transparent');
-        localStorage.setItem("vyzorMenu", 'transparent');
+        localStorage.setItem("foxyuxMenu", 'transparent');
     });
     /* Transparent Menu End */
 
     /* Light Header Start */
     let lightHeaderVar = lightHeaderBtn.addEventListener('click', () => {
         html.setAttribute('data-header-styles', 'light');
-        localStorage.setItem("vyzorHeader", 'light');
+        localStorage.setItem("foxyuxHeader", 'light');
     });
     /* Light Header End */
 
     /* Color Header Start */
     let colorHeaderVar = colorHeaderBtn.addEventListener('click', () => {
         html.setAttribute('data-header-styles', 'color');
-        localStorage.setItem("vyzorHeader", 'color');
+        localStorage.setItem("foxyuxHeader", 'color');
     });
     /* Color Header End */
 
     /* Dark Header Start */
     let darkHeaderVar = darkHeaderBtn.addEventListener('click', () => {
         html.setAttribute('data-header-styles', 'dark');
-        localStorage.setItem("vyzorHeader", 'dark');
+        localStorage.setItem("foxyuxHeader", 'dark');
     });
     /* Dark Header End */
 
     /* Gradient Header Start */
     let gradientHeaderVar = gradientHeaderBtn.addEventListener('click', () => {
         html.setAttribute('data-header-styles', 'gradient');
-        localStorage.setItem("vyzorHeader", 'gradient');
+        localStorage.setItem("foxyuxHeader", 'gradient');
     });
     /* Gradient Header End */
 
     /* Transparent Header Start */
     let transparentHeaderVar = transparentHeaderBtn.addEventListener('click', () => {
         html.setAttribute('data-header-styles', 'transparent');
-        localStorage.setItem("vyzorHeader", 'transparent');
+        localStorage.setItem("foxyuxHeader", 'transparent');
     });
     /* Transparent Header End */
 
     /* Default Width Layout Start */
     let defaultwidthVar = defaultwidthBtn.addEventListener('click', () => {
         html.setAttribute('data-width', 'default');
-        localStorage.setItem("vyzordefaultwidth", true);
-        localStorage.removeItem("vyzorboxed");
-        localStorage.removeItem("vyzorfullwidth");
+        localStorage.setItem("foxyuxdefaultwidth", true);
+        localStorage.removeItem("foxyuxboxed");
+        localStorage.removeItem("foxyuxfullwidth");
     });
     /* Default Width Layout End */
 
     /* Full Width Layout Start */
     let fullwidthVar = fullwidthBtn.addEventListener('click', () => {
         html.setAttribute('data-width', 'fullwidth');
-        localStorage.setItem("vyzorfullwidth", true);
-        localStorage.removeItem("vyzorboxed");
-        localStorage.removeItem("vyzordefaultwidth");
+        localStorage.setItem("foxyuxfullwidth", true);
+        localStorage.removeItem("foxyuxboxed");
+        localStorage.removeItem("foxyuxdefaultwidth");
     });
     /* Full Width Layout End */
 
     /* Boxed Layout Start */
     let boxedVar = boxedBtn.addEventListener('click', () => {
         html.setAttribute('data-width', 'boxed');
-        localStorage.setItem("vyzorboxed", true);
-        localStorage.removeItem("vyzorfullwidth");
-        localStorage.removeItem("vyzordefaultwidth");
+        localStorage.setItem("foxyuxboxed", true);
+        localStorage.removeItem("foxyuxfullwidth");
+        localStorage.removeItem("foxyuxdefaultwidth");
         checkHoriMenu()
     });
     /* Boxed Layout End */
@@ -341,10 +341,10 @@ function switcherClick() {
      /* Flat page style Start */
      let flatVar = flat.addEventListener('click', () => {
         html.setAttribute('data-page-style', 'flat');
-        localStorage.setItem("vyzorflat", true);
-        localStorage.removeItem("vyzorclassic");
-        localStorage.removeItem("vyzormodern");
-        localStorage.removeItem("vyzorregular");
+        localStorage.setItem("foxyuxflat", true);
+        localStorage.removeItem("foxyuxclassic");
+        localStorage.removeItem("foxyuxmodern");
+        localStorage.removeItem("foxyuxregular");
         let containerDiv = document.querySelector('.page-container');
         if (containerDiv) {
             containerDiv.classList.add('main-body-container');
@@ -355,10 +355,10 @@ function switcherClick() {
     /* Regular page style Start */
     let shadowVar = regular.addEventListener('click', () => {
         html.setAttribute('data-page-style', 'regular');
-        localStorage.setItem("vyzorregular", true);
-        localStorage.removeItem("vyzorclassic");
-        localStorage.removeItem("vyzormodern");
-        localStorage.removeItem("vyzorflat");
+        localStorage.setItem("foxyuxregular", true);
+        localStorage.removeItem("foxyuxclassic");
+        localStorage.removeItem("foxyuxmodern");
+        localStorage.removeItem("foxyuxflat");
         let containerDiv = document.querySelector('.page-container');
         if (containerDiv) {
             containerDiv.classList.remove('main-body-container');
@@ -369,10 +369,10 @@ function switcherClick() {
     /* Classic page style Start */
     let noShadowVar = classic.addEventListener('click', () => {
         html.setAttribute('data-page-style', 'classic');
-        localStorage.setItem("vyzorclassic", true);
-        localStorage.removeItem("vyzorregular");
-        localStorage.removeItem("vyzormodern");
-        localStorage.removeItem("vyzorflat");
+        localStorage.setItem("foxyuxclassic", true);
+        localStorage.removeItem("foxyuxregular");
+        localStorage.removeItem("foxyuxmodern");
+        localStorage.removeItem("foxyuxflat");
         let containerDiv = document.querySelector('.page-container');
         if (containerDiv) {
             containerDiv.classList.remove('main-body-container');
@@ -383,10 +383,10 @@ function switcherClick() {
     /* modern page style Start */
     let modernVar = modern.addEventListener('click', () => {
         html.setAttribute('data-page-style', 'modern');
-        localStorage.setItem("vyzormodern", true);
-        localStorage.removeItem("vyzorregular");
-        localStorage.removeItem("vyzorclassic");
-        localStorage.removeItem("vyzorflat");
+        localStorage.setItem("foxyuxmodern", true);
+        localStorage.removeItem("foxyuxregular");
+        localStorage.removeItem("foxyuxclassic");
+        localStorage.removeItem("foxyuxflat");
         let containerDiv = document.querySelector('.page-container');
         if (containerDiv) {
             containerDiv.classList.remove('main-body-container');
@@ -397,28 +397,28 @@ function switcherClick() {
     /* Header-Position Styles Start */
     let fixedHeaderVar = fixedHeaderBtn.addEventListener('click', () => {
         html.setAttribute('data-header-position', 'fixed');
-        localStorage.setItem("vyzorheaderfixed", true);
-        localStorage.removeItem("vyzorheaderscrollable");
+        localStorage.setItem("foxyuxheaderfixed", true);
+        localStorage.removeItem("foxyuxheaderscrollable");
     });
 
     let scrollHeaderVar = scrollHeaderBtn.addEventListener('click', () => {
         html.setAttribute('data-header-position', 'scrollable');
-        localStorage.setItem("vyzorheaderscrollable", true);
-        localStorage.removeItem("vyzorheaderfixed");
+        localStorage.setItem("foxyuxheaderscrollable", true);
+        localStorage.removeItem("foxyuxheaderfixed");
     });
     /* Header-Position Styles End */
 
     /* Menu-Position Styles Start */
     let fixedMenuVar = fixedMenuBtn.addEventListener('click', () => {
         html.setAttribute('data-menu-position', 'fixed');
-        localStorage.setItem("vyzormenufixed", true);
-        localStorage.removeItem("vyzormenuscrollable");
+        localStorage.setItem("foxyuxmenufixed", true);
+        localStorage.removeItem("foxyuxmenuscrollable");
     });
 
     let scrollMenuVar = scrollMenuBtn.addEventListener('click', () => {
         html.setAttribute('data-menu-position', 'scrollable');
-        localStorage.setItem("vyzormenuscrollable", true);
-        localStorage.removeItem("vyzormenufixed");
+        localStorage.setItem("foxyuxmenuscrollable", true);
+        localStorage.removeItem("foxyuxmenufixed");
     });
     /* Menu-Position Styles End */
 
@@ -427,7 +427,7 @@ function switcherClick() {
         html.setAttribute('data-vertical-style', 'default');
         html.setAttribute('data-nav-layout', 'vertical');
         toggleSidemenu();
-        localStorage.setItem("vyzorverticalstyles", 'default');
+        localStorage.setItem("foxyuxverticalstyles", 'default');
         document.querySelectorAll(".main-menu>li.open").forEach((ele) => {
             if (!ele.classList.contains('active')) {
                 ele.classList.remove('open')
@@ -440,7 +440,7 @@ function switcherClick() {
     /* Closed Sidemenu Start */
     let closedVar = closedBtn.addEventListener('click', () => {
         closedSidemenuFn();
-        localStorage.setItem("vyzorverticalstyles", 'closed');
+        localStorage.setItem("foxyuxverticalstyles", 'closed');
         document.querySelectorAll(".main-menu>li.open").forEach((ele) => {
             if (!ele.classList.contains('active')) {
                 ele.classList.remove('open')
@@ -453,21 +453,21 @@ function switcherClick() {
     /* Hover Submenu Start */
     let detachedVar = detachedBtn.addEventListener('click', () => {
         detachedFn();
-        localStorage.setItem("vyzorverticalstyles", 'detached');
+        localStorage.setItem("foxyuxverticalstyles", 'detached');
     });
     /* Hover Submenu End */
 
     /* Icon Text Sidemenu Start */
     let iconTextVar = iconTextBtn.addEventListener('click', () => {
         iconTextFn();
-        localStorage.setItem("vyzorverticalstyles", 'icontext');
+        localStorage.setItem("foxyuxverticalstyles", 'icontext');
     });
     /* Icon Text Sidemenu End */
 
     /* Icon Overlay Sidemenu Start */
     let overlayVar = overlayBtn.addEventListener('click', () => {
         iconOverayFn();
-        localStorage.setItem("vyzorverticalstyles", 'overlay');
+        localStorage.setItem("foxyuxverticalstyles", 'overlay');
         document.querySelectorAll(".main-menu>li.open").forEach((ele) => {
             if (!ele.classList.contains('active')) {
                 ele.classList.remove('open')
@@ -481,8 +481,8 @@ function switcherClick() {
     let doubleVar = doubleBtn.addEventListener('click', () => {
         doubletFn();
         html.removeAttribute("data-nav-style", "");
-        localStorage.removeItem("vyzornavstyles");
-        localStorage.setItem("vyzorverticalstyles", 'doublemenu');
+        localStorage.removeItem("foxyuxnavstyles");
+        localStorage.setItem("foxyuxverticalstyles", 'doublemenu');
     });
     /* doublemenu Sidemenu End */
 
@@ -490,8 +490,8 @@ function switcherClick() {
     let menuClickVar = menuClickBtn.addEventListener('click', () => {
         html.removeAttribute('data-vertical-style');
         menuClickFn();
-        localStorage.setItem("vyzornavstyles", 'menu-click');
-        localStorage.removeItem("vyzorverticalstyles");
+        localStorage.setItem("foxyuxnavstyles", 'menu-click');
+        localStorage.removeItem("foxyuxverticalstyles");
         document.querySelectorAll(".main-menu>li.open").forEach((ele) => {
             if (!ele.classList.contains('active')) {
                 ele.classList.remove('open')
@@ -510,8 +510,8 @@ function switcherClick() {
     let menuhoverVar = menuHoverBtn.addEventListener('click', () => {
         html.removeAttribute('data-vertical-style');
         menuhoverFn();
-        localStorage.setItem("vyzornavstyles", 'menu-hover');
-        localStorage.removeItem("vyzorverticalstyles");
+        localStorage.setItem("foxyuxnavstyles", 'menu-hover');
+        localStorage.removeItem("foxyuxverticalstyles");
 
         if (document.querySelector("html").getAttribute("data-nav-layout") == 'horizontal') {
             document.querySelector(".main-menu").style.marginLeft = "0px"
@@ -525,8 +525,8 @@ function switcherClick() {
     let iconClickVar = iconClickBtn.addEventListener('click', () => {
         html.removeAttribute('data-vertical-style');
         iconClickFn();
-        localStorage.setItem("vyzornavstyles", 'icon-click');
-        localStorage.removeItem("vyzorverticalstyles");
+        localStorage.setItem("foxyuxnavstyles", 'icon-click');
+        localStorage.removeItem("foxyuxverticalstyles");
 
         if (document.querySelector("html").getAttribute("data-nav-layout") == 'horizontal') {
             document.querySelector(".main-menu").style.marginLeft = "0px"
@@ -547,8 +547,8 @@ function switcherClick() {
     let iconhoverVar = iconHoverBtn.addEventListener('click', () => {
         html.removeAttribute('data-vertical-style');
         iconHoverFn();
-        localStorage.setItem("vyzornavstyles", 'icon-hover');
-        localStorage.removeItem("vyzorverticalstyles");
+        localStorage.setItem("foxyuxnavstyles", 'icon-hover');
+        localStorage.removeItem("foxyuxverticalstyles");
 
         if (document.querySelector("html").getAttribute("data-nav-layout") == 'horizontal') {
             document.querySelector(".main-menu").style.marginLeft = "0px"
@@ -563,8 +563,8 @@ function switcherClick() {
     let verticalVar = verticalBtn.addEventListener('click', () => {
         let mainContent = document.querySelector('.main-content');
         // local storage
-        localStorage.removeItem("vyzorlayout");
-        localStorage.setItem("vyzorverticalstyles", 'default');
+        localStorage.removeItem("foxyuxlayout");
+        localStorage.setItem("foxyuxverticalstyles", 'default');
         verticalFn();
         setNavActive();
         mainContent.removeEventListener('click', clearNavDropdown);
@@ -589,14 +589,14 @@ function switcherClick() {
         let mainContent = document.querySelector('.main-content');
         html.removeAttribute('data-vertical-style');
         //    local storage
-        localStorage.setItem("vyzorlayout", 'horizontal');
-        localStorage.removeItem("vyzorverticalstyles");
+        localStorage.setItem("foxyuxlayout", 'horizontal');
+        localStorage.removeItem("foxyuxverticalstyles");
 
         if (html.getAttribute('data-nav-layout') === 'horizontal') {
             if (html.getAttribute('data-theme-mode') === 'light') {
                 html.setAttribute('data-header-styles', 'transparent');
                 html.setAttribute('data-menu-styles', 'transparent');
-                localStorage.setItem("vyzorMenu", '	transparent');
+                localStorage.setItem("foxyuxMenu", '	transparent');
             } else if (html.getAttribute('data-theme-mode') === 'dark') {
                 html.setAttribute('data-header-styles', 'dark');
             }
@@ -609,8 +609,8 @@ function switcherClick() {
 
     /* rtl start */
     let rtlVar = rtlBtn.addEventListener('click', () => {
-        localStorage.setItem("vyzorrtl", true);
-        localStorage.removeItem("vyzorltr");
+        localStorage.setItem("foxyuxrtl", true);
+        localStorage.removeItem("foxyuxltr");
         rtlFn();
         if (document.querySelector(".noUi-target")) {
             console.log("working");
@@ -624,8 +624,8 @@ function switcherClick() {
     /* ltr start */
     let ltrVar = ltrBtn.addEventListener('click', () => {
         //    local storage
-        localStorage.setItem("vyzorltr", true);
-        localStorage.removeItem("vyzorrtl");
+        localStorage.setItem("foxyuxltr", true);
+        localStorage.removeItem("foxyuxrtl");
         ltrFn();
         if (document.querySelector(".noUi-target")) {
             document.querySelectorAll(".noUi-origin").forEach((e) => {
@@ -694,12 +694,12 @@ function lightFn() {
     document.querySelector('#switcher-light-theme').checked = true;
     document.querySelector('#switcher-menu-transparent').checked = true;
     document.querySelector('#switcher-header-transparent').checked = true;
-    localStorage.removeItem("vyzordarktheme");
-    localStorage.removeItem("vyzorbgColor");
-    localStorage.removeItem("vyzorheaderbg");
-    localStorage.removeItem("vyzorbgwhite");
-    localStorage.removeItem("vyzormenubg");
-    localStorage.removeItem("vyzormenubg");
+    localStorage.removeItem("foxyuxdarktheme");
+    localStorage.removeItem("foxyuxbgColor");
+    localStorage.removeItem("foxyuxheaderbg");
+    localStorage.removeItem("foxyuxbgwhite");
+    localStorage.removeItem("foxyuxmenubg");
+    localStorage.removeItem("foxyuxmenubg");
     checkOptions();
     html.style.removeProperty('--body-bg-rgb');
     html.style.removeProperty('--body-bg-rgb2');
@@ -734,13 +734,13 @@ function darkFn() {
     document.querySelector('html').style.removeProperty('--form-control-bg');
     document.querySelector('html').style.removeProperty('--gray-3');
     document.querySelector('html').style.removeProperty('--input-border');
-    localStorage.setItem("vyzordarktheme", true);
-    localStorage.removeItem("vyzorlighttheme");
+    localStorage.setItem("foxyuxdarktheme", true);
+    localStorage.removeItem("foxyuxlighttheme");
     localStorage.removeItem("bodyBgRGB");
-    localStorage.removeItem("vyzorbgColor");
-    localStorage.removeItem("vyzorheaderbg");
-    localStorage.removeItem("vyzorbgwhite");
-    localStorage.removeItem("vyzormenubg");
+    localStorage.removeItem("foxyuxbgColor");
+    localStorage.removeItem("foxyuxheaderbg");
+    localStorage.removeItem("foxyuxbgwhite");
+    localStorage.removeItem("foxyuxmenubg");
     checkOptions();
 
     document.querySelector("#switcher-background4").checked = false
@@ -757,7 +757,7 @@ function verticalFn() {
     html.setAttribute('data-nav-layout', 'vertical');
     html.setAttribute('data-vertical-style', 'overlay');
     html.removeAttribute('data-nav-style');
-    localStorage.removeItem('vyzornavstyles');
+    localStorage.removeItem('foxyuxnavstyles');
     html.removeAttribute('data-toggled');
     document.querySelector('#switcher-vertical').checked = true;
     document.querySelector('#switcher-menu-click').checked = false;
@@ -770,21 +770,21 @@ function verticalFn() {
 function horizontalClickFn() {
     document.querySelector('#switcher-horizontal').checked = true;
     document.querySelector('#switcher-menu-click').checked = true;
-    // localStorage.setItem("vyzornavstyles", 'menu-click');
+    // localStorage.setItem("foxyuxnavstyles", 'menu-click');
     let html = document.querySelector('html');
     html.setAttribute('data-nav-layout', 'horizontal');
     html.removeAttribute('data-vertical-style');
     if (!html.getAttribute('data-nav-style')) {
         html.setAttribute('data-nav-style', 'menu-click');
     }
-    // if (html.getAttribute('data-nav-layout') === 'horizontal' && !localStorage.vyzorHeader) { 
+    // if (html.getAttribute('data-nav-layout') === 'horizontal' && !localStorage.foxyuxHeader) { 
     //     if (html.getAttribute('data-theme-mode') === 'light') {
     //         html.setAttribute('data-header-styles', 'light');
     //     } else if (html.getAttribute('data-theme-mode') === 'dark') {
     //         html.setAttribute('data-header-styles', 'dark');
     //     }
     // }
-    if (!localStorage.vyzorMenu && !localStorage.bodylightRGB) {
+    if (!localStorage.foxyuxMenu && !localStorage.bodylightRGB) {
         html.setAttribute("data-menu-styles", "transparent")
         document.querySelector('#switcher-menu-transparent').checked = true;
         checkOptions();
@@ -796,7 +796,7 @@ function horizontalClickFn() {
 
 function ResetAllFn() {
     let html = document.querySelector('html');
-    if (localStorage.getItem("vyzorlayout") == "horizontal") {
+    if (localStorage.getItem("foxyuxlayout") == "horizontal") {
         document.querySelector(".main-menu").style.display = "block"
     }
     checkOptions();
@@ -888,12 +888,12 @@ function ResetAllFn() {
 function checkOptions() {
 
     // dark
-    if (localStorage.getItem('vyzordarktheme')) {
+    if (localStorage.getItem('foxyuxdarktheme')) {
         document.querySelector('#switcher-dark-theme').checked = true;
     }
 
     // horizontal
-    if (localStorage.getItem('vyzorlayout') === "horizontal") {
+    if (localStorage.getItem('foxyuxlayout') === "horizontal") {
         document.querySelector('#switcher-horizontal').checked = true;
         document.querySelector('#switcher-menu-click').checked = true;
     }
@@ -902,7 +902,7 @@ function checkOptions() {
     }
 
     //RTL
-    if (localStorage.getItem('vyzorrtl')) {
+    if (localStorage.getItem('foxyuxrtl')) {
         document.querySelector('#switcher-rtl').checked = true;
     }
     else {
@@ -910,86 +910,86 @@ function checkOptions() {
     }
 
     // light header
-    if (localStorage.getItem('vyzorHeader') === "light") {
+    if (localStorage.getItem('foxyuxHeader') === "light") {
         document.querySelector('#switcher-header-light').checked = true;
     }
 
     // color header
-    if (localStorage.getItem('vyzorHeader') === "color") {
+    if (localStorage.getItem('foxyuxHeader') === "color") {
         document.querySelector('#switcher-header-primary').checked = true;
     }
 
     // gradient header
-    if (localStorage.getItem('vyzorHeader') === "gradient") {
+    if (localStorage.getItem('foxyuxHeader') === "gradient") {
         document.querySelector('#switcher-header-gradient').checked = true;
     }
 
     // dark header
-    if (localStorage.getItem('vyzorHeader') === "dark") {
+    if (localStorage.getItem('foxyuxHeader') === "dark") {
         document.querySelector('#switcher-header-dark').checked = true;
     }
     // transparent header
-    if (localStorage.getItem('vyzorHeader') === "transparent") {
+    if (localStorage.getItem('foxyuxHeader') === "transparent") {
         document.querySelector('#switcher-header-transparent').checked = true;
     }
 
     // light menu
-    if (localStorage.getItem('vyzorMenu') === 'light') {
+    if (localStorage.getItem('foxyuxMenu') === 'light') {
         document.querySelector('#switcher-menu-light').checked = true;
     }
 
     // color menu
-    if (localStorage.getItem('vyzorMenu') === 'color') {
+    if (localStorage.getItem('foxyuxMenu') === 'color') {
         document.querySelector('#switcher-menu-primary').checked = true;
     }
 
     // gradient menu
-    if (localStorage.getItem('vyzorMenu') === 'gradient') {
+    if (localStorage.getItem('foxyuxMenu') === 'gradient') {
         document.querySelector('#switcher-menu-gradient').checked = true;
     }
 
     // dark menu
-    if (localStorage.getItem('vyzorMenu') === 'dark') {
+    if (localStorage.getItem('foxyuxMenu') === 'dark') {
         document.querySelector('#switcher-menu-dark').checked = true;
     }
     // transparent menu
-    if (localStorage.getItem('vyzorMenu') === 'transparent') {
+    if (localStorage.getItem('foxyuxMenu') === 'transparent') {
         document.querySelector('#switcher-menu-transparent').checked = true;
     }
 
     //default width
-    if (localStorage.getItem('vyzordefaultwidth')) {
+    if (localStorage.getItem('foxyuxdefaultwidth')) {
         document.querySelector('#switcher-default-width').checked = true;
     }
 
     //full width
-    if (localStorage.getItem('vyzorfullwidth')) {
+    if (localStorage.getItem('foxyuxfullwidth')) {
         document.querySelector('#switcher-full-width').checked = true;
     }
 
     //boxed
-    if (localStorage.getItem('vyzorboxed')) {
+    if (localStorage.getItem('foxyuxboxed')) {
         document.querySelector('#switcher-boxed').checked = true;
     }
 
     //scrollable
-    if (localStorage.getItem('vyzorheaderscrollable')) {
+    if (localStorage.getItem('foxyuxheaderscrollable')) {
         document.querySelector('#switcher-header-scroll').checked = true;
     }
-    if (localStorage.getItem('vyzormenuscrollable')) {
+    if (localStorage.getItem('foxyuxmenuscrollable')) {
         document.querySelector('#switcher-menu-scroll').checked = true;
     }
 
     //fixed
-    if (localStorage.getItem('vyzorheaderfixed')) {
+    if (localStorage.getItem('foxyuxheaderfixed')) {
         document.querySelector('#switcher-header-fixed').checked = true;
     }
-    if (localStorage.getItem('vyzormenufixed')) {
+    if (localStorage.getItem('foxyuxmenufixed')) {
         document.querySelector('#switcher-menu-fixed').checked = true;
     }
 
      //regular
-     if (localStorage.getItem('vyzorregular')) {
+     if (localStorage.getItem('foxyuxregular')) {
         document.querySelector('#switcher-regular').checked = true;
         let containerDiv = document.querySelector('.page-container');
         if (containerDiv) {
@@ -998,7 +998,7 @@ function checkOptions() {
     }
 
     //classic
-    if (localStorage.getItem('vyzorclassic')) {
+    if (localStorage.getItem('foxyuxclassic')) {
         document.querySelector('#switcher-classic').checked = true;
         let containerDiv = document.querySelector('.page-container');
         if (containerDiv) {
@@ -1007,7 +1007,7 @@ function checkOptions() {
     }
 
     //modern
-    if (localStorage.getItem('vyzormodern')) {
+    if (localStorage.getItem('foxyuxmodern')) {
         document.querySelector('#switcher-modern').checked = true;
         let containerDiv = document.querySelector('.page-container');
         if (containerDiv) {
@@ -1016,7 +1016,7 @@ function checkOptions() {
     }
 
      //flat
-     if (localStorage.getItem('vyzorflat')) {
+     if (localStorage.getItem('foxyuxflat')) {
         document.querySelector('#switcher-flat').checked = true;
         let containerDiv = document.querySelector('.page-container');
         if (containerDiv) {
@@ -1025,8 +1025,8 @@ function checkOptions() {
     }
 
     // sidemenu layout style
-    if (localStorage.vyzorverticalstyles) {
-        let verticalStyles = localStorage.getItem('vyzorverticalstyles');
+    if (localStorage.foxyuxverticalstyles) {
+        let verticalStyles = localStorage.getItem('foxyuxverticalstyles');
         switch (verticalStyles) {
             case 'default':
                 document.querySelector('#switcher-default-menu').checked = true;
@@ -1052,8 +1052,8 @@ function checkOptions() {
         }
     }
     // navigation menu style
-    if (localStorage.vyzornavstyles) {
-        let navStyles = localStorage.getItem('vyzornavstyles');
+    if (localStorage.foxyuxnavstyles) {
+        let navStyles = localStorage.getItem('foxyuxnavstyles');
         switch (navStyles) {
             case 'menu-click':
                 document.querySelector('#switcher-menu-click').checked = true;

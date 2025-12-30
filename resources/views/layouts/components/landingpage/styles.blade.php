@@ -3,14 +3,14 @@
         <link id="style" href="{{asset('build/assets/libs/bootstrap/css/bootstrap.min.css')}}" rel="stylesheet" >
         
         <script>
-            if(localStorage.vyzordarktheme){
+            if(localStorage.foxyuxdarktheme){
                 document.querySelector("html").setAttribute("data-theme-mode","dark")
             }
-            if(localStorage.vyzorrtl){
+            if(localStorage.foxyuxrtl){
                 document.querySelector("html").setAttribute("dir","rtl")
                 document.querySelector("#style")?.setAttribute("href", "{{asset('build/assets/libs/bootstrap/css/bootstrap.rtl.min.css')}}");
             }
-            if(localStorage.vyzorltr){
+            if(localStorage.foxyuxltr){
                 document.querySelector("html").setAttribute("dir","ltr")
                 document.querySelector("#style")?.setAttribute("href", "{{asset('build/assets/libs/bootstrap/css/bootstrap.min.css')}}");
             }

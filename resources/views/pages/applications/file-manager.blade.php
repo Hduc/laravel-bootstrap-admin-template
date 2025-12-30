@@ -832,7 +832,7 @@
                                             <li class="list-group-item">
                                                 <div>
                                                     <p class="fw-medium mb-0">File Description : </p>
-                                                    <span class="fs-12 text-muted">This file contains 3 folder VYZOR.main & VYZOR.premium & VYZOR.featured and 42 images and layout styles are added in this update.</span>
+                                                    <span class="fs-12 text-muted">This file contains 3 folder foxyux.main & foxyux.premium & foxyux.featured and 42 images and layout styles are added in this update.</span>
                                                 </div>
                                             </li>
                                             <li class="list-group-item">

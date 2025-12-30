@@ -1,11 +1,11 @@
 (function () {
   "use strict";
-  if (localStorage.getItem("vyzordarktheme")) {
+  if (localStorage.getItem("foxyuxdarktheme")) {
     document.querySelector("html").setAttribute("data-theme-mode", "dark");
     document.querySelector("html").setAttribute("data-menu-styles", "transparent");
     document.querySelector("html").setAttribute("data-header-styles", "transparent");
   }
-  if (localStorage.vyzorrtl) {
+  if (localStorage.foxyuxrtl) {
     let html = document.querySelector("html");
     html.setAttribute("dir", "rtl");
     document
@@ -15,13 +15,13 @@
         "build/assets/libs/bootstrap/css/bootstrap.rtl.min.css"
       );
   }
-  if (localStorage.vyzorlayout) {
+  if (localStorage.foxyuxlayout) {
     let html = document.querySelector("html");
     html.setAttribute("data-nav-layout", "horizontal");
     document.querySelector("html").setAttribute("data-menu-styles", "transparent");
      html.setAttribute("data-vertical-style", "");
   }
-  if (localStorage.getItem("vyzorlayout") == "horizontal") {
+  if (localStorage.getItem("foxyuxlayout") == "horizontal") {
     document
       .querySelector("html")
       .setAttribute("data-nav-layout", "horizontal");
@@ -61,43 +61,43 @@
       html.setAttribute("data-menu-styles", "dark");
       html.setAttribute("data-header-styles", "dark");
     }
-    if (localStorage.vyzordarktheme) {
+    if (localStorage.foxyuxdarktheme) {
       let html = document.querySelector("html");
       html.setAttribute("data-theme-mode", "dark");
     }
-    if (localStorage.vyzorlayout) {
+    if (localStorage.foxyuxlayout) {
       let html = document.querySelector("html");
-      let layoutValue = localStorage.getItem("vyzorlayout");
+      let layoutValue = localStorage.getItem("foxyuxlayout");
       html.setAttribute("data-nav-layout", "horizontal");
       html.setAttribute("data-nav-style", "menu-click");
     }
-    if (localStorage.vyzorverticalstyles) {
+    if (localStorage.foxyuxverticalstyles) {
       let html = document.querySelector("html");
-      let verticalStyles = localStorage.getItem("vyzorverticalstyles");
+      let verticalStyles = localStorage.getItem("foxyuxverticalstyles");
 
       if (verticalStyles == "default") {
         html.setAttribute("data-vertical-style", "default");
-        localStorage.removeItem("vyzornavstyles");
+        localStorage.removeItem("foxyuxnavstyles");
       }
       if (verticalStyles == "closed") {
         html.setAttribute("data-vertical-style", "closed");
-        localStorage.removeItem("vyzornavstyles");
+        localStorage.removeItem("foxyuxnavstyles");
       }
       if (verticalStyles == "icontext") {
         html.setAttribute("data-vertical-style", "icontext");
-        localStorage.removeItem("vyzornavstyles");
+        localStorage.removeItem("foxyuxnavstyles");
       }
       if (verticalStyles == "overlay") {
         html.setAttribute("data-vertical-style", "overlay");
-        localStorage.removeItem("vyzornavstyles");
+        localStorage.removeItem("foxyuxnavstyles");
       }
       if (verticalStyles == "detached") {
         html.setAttribute("data-vertical-style", "detached");
-        localStorage.removeItem("vyzornavstyles");
+        localStorage.removeItem("foxyuxnavstyles");
       }
       if (verticalStyles == "doublemenu") {
         html.setAttribute("data-vertical-style", "doublemenu");
-        localStorage.removeItem("vyzornavstyles");
+        localStorage.removeItem("foxyuxnavstyles");
         setTimeout(() => {
           const menuSlideItem = document.querySelectorAll(
             ".main-menu > li > .side-menu__item"
@@ -121,7 +121,7 @@
           menuSlideItem.forEach((e) => {
             // Add an event listener to the menu slide item to show the tooltip
             e.addEventListener("mouseenter", () => {
-              if (localStorage.vyzorverticalstyles == "doublemenu") {
+              if (localStorage.foxyuxverticalstyles == "doublemenu") {
                 tooltip.style.setProperty("display", "block");
                 tooltip.textContent =
                   e.querySelector(".side-menu__label").textContent;
@@ -145,31 +145,31 @@
         }, 1000);
       }
     }
-    if (localStorage.vyzornavstyles) {
+    if (localStorage.foxyuxnavstyles) {
       let html = document.querySelector("html");
-      let navStyles = localStorage.getItem("vyzornavstyles");
+      let navStyles = localStorage.getItem("foxyuxnavstyles");
       if (navStyles == "menu-click") {
         html.setAttribute("data-nav-style", "menu-click");
-        localStorage.removeItem("vyzorverticalstyles");
+        localStorage.removeItem("foxyuxverticalstyles");
         html.removeAttribute("data-vertical-style");
       }
       if (navStyles == "menu-hover") {
         html.setAttribute("data-nav-style", "menu-hover");
-        localStorage.removeItem("vyzorverticalstyles");
+        localStorage.removeItem("foxyuxverticalstyles");
         html.removeAttribute("data-vertical-style");
       }
       if (navStyles == "icon-click") {
         html.setAttribute("data-nav-style", "icon-click");
-        localStorage.removeItem("vyzorverticalstyles");
+        localStorage.removeItem("foxyuxverticalstyles");
         html.removeAttribute("data-vertical-style");
       }
       if (navStyles == "icon-hover") {
         html.setAttribute("data-nav-style", "icon-hover");
-        localStorage.removeItem("vyzorverticalstyles");
+        localStorage.removeItem("foxyuxverticalstyles");
         html.removeAttribute("data-vertical-style");
       }
     }
-    if (localStorage.vyzorregular) {
+    if (localStorage.foxyuxregular) {
       let html = document.querySelector("html");
       html.setAttribute("data-page-style", "regular");
       let containerDiv = document.querySelector('.page-container');
@@ -177,7 +177,7 @@
           containerDiv.classList.remove('main-body-container');
       }
     }
-    if (localStorage.vyzorclassic) {
+    if (localStorage.foxyuxclassic) {
       let html = document.querySelector("html");
       html.setAttribute("data-page-style", "classic");
       let containerDiv = document.querySelector('.page-container');
@@ -185,7 +185,7 @@
           containerDiv.classList.remove('main-body-container');
       }
     }
-    if (localStorage.vyzormodern) {
+    if (localStorage.foxyuxmodern) {
       let html = document.querySelector("html");
       html.setAttribute("data-page-style", "modern");
       let containerDiv = document.querySelector('.page-container');
@@ -193,7 +193,7 @@
           containerDiv.classList.remove('main-body-container');
       }
     }
-    if (localStorage.vyzorflat) {
+    if (localStorage.foxyuxflat) {
       let html = document.querySelector("html");
       html.setAttribute("data-page-style", "flat");
       let containerDiv = document.querySelector('.page-container');
@@ -201,37 +201,37 @@
           containerDiv.classList.add('main-body-container');
       }
     }
-    if (localStorage.vyzordefaultwidth) {
+    if (localStorage.foxyuxdefaultwidth) {
       let html = document.querySelector("html");
       html.setAttribute("data-width", "default");
     }
-    if (localStorage.vyzorboxed) {
+    if (localStorage.foxyuxboxed) {
       let html = document.querySelector("html");
       html.setAttribute("data-width", "boxed");
     }
-    if (localStorage.vyzorfullwidth) {
+    if (localStorage.foxyuxfullwidth) {
       let html = document.querySelector("html");
       html.setAttribute("data-width", "fullwidth");
     }
-    if (localStorage.vyzorheaderfixed) {
+    if (localStorage.foxyuxheaderfixed) {
       let html = document.querySelector("html");
       html.setAttribute("data-header-position", "fixed");
     }
-    if (localStorage.vyzorheaderscrollable) {
+    if (localStorage.foxyuxheaderscrollable) {
       let html = document.querySelector("html");
       html.setAttribute("data-header-position", "scrollable");
     }
-    if (localStorage.vyzormenufixed) {
+    if (localStorage.foxyuxmenufixed) {
       let html = document.querySelector("html");
       html.setAttribute("data-menu-position", "fixed");
     }
-    if (localStorage.vyzormenuscrollable) {
+    if (localStorage.foxyuxmenuscrollable) {
       let html = document.querySelector("html");
       html.setAttribute("data-menu-position", "scrollable");
     }
-    if (localStorage.vyzorMenu) {
+    if (localStorage.foxyuxMenu) {
       let html = document.querySelector("html");
-      let menuValue = localStorage.getItem("vyzorMenu");
+      let menuValue = localStorage.getItem("foxyuxMenu");
       switch (menuValue) {
         case "light":
           html.setAttribute("data-menu-styles", "light");
@@ -252,9 +252,9 @@
           break;
       }
     }
-    if (localStorage.vyzorHeader) {
+    if (localStorage.foxyuxHeader) {
       let html = document.querySelector("html");
-      let headerValue = localStorage.getItem("vyzorHeader");
+      let headerValue = localStorage.getItem("foxyuxHeader");
       html.setAttribute("data-header-styles", headerValue);
     }
     if (localStorage.bgimg) {

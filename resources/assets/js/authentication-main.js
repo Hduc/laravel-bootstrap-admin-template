@@ -1,17 +1,17 @@
 (function () {
     'use strict';
-    if (localStorage.getItem("vyzordarktheme")) {
+    if (localStorage.getItem("foxyuxdarktheme")) {
         document.querySelector("html").setAttribute("data-theme-mode", "dark")
         document.querySelector("html").setAttribute("data-menu-styles", "dark")
         document.querySelector("html").setAttribute("data-header-styles", "dark")
     }
-    if (localStorage.vyzorrtl) {
+    if (localStorage.foxyuxrtl) {
         let html = document.querySelector('html');
         html.setAttribute("dir", "rtl");
         document.querySelector("#style")?.setAttribute("href", "build/assets/libs/bootstrap/css/bootstrap.rtl.min.css");
             // rtlFn();
     }
-    if (localStorage.getItem("vyzorlayout") == "horizontal") {
+    if (localStorage.getItem("foxyuxlayout") == "horizontal") {
         document.querySelector("html").setAttribute("data-nav-layout", "horizontal") 
     }
     function localStorageBackup() {
@@ -40,11 +40,11 @@
 
 
         }
-        if (localStorage.vyzordarktheme) {
+        if (localStorage.foxyuxdarktheme) {
             let html = document.querySelector('html');
             html.setAttribute('data-theme-mode', 'dark');
         }
-        if (localStorage.vyzorrtl) {
+        if (localStorage.foxyuxrtl) {
             let html = document.querySelector('html');
             html.setAttribute('dir', 'rtl');
             document.querySelector("#style")?.setAttribute("href", "build/assets/libs/bootstrap/css/bootstrap.rtl.min.css");
